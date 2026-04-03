@@ -1,0 +1,79 @@
+{
+    "bird": {
+        "train": {
+            "ds_location": "/datadrive/databases/bird",
+            "db_location": "/datadrive/databases/bird/train_databases",
+            "fk_map": "/datadrive/databases/bird/train_tables.json",
+            "dataset": "/datadrive/databases/bird/train.json"
+        },
+        "dev": {
+            "ds_location": "/datadrive/databases/bird",
+            "db_location": "/datadrive/databases/bird/dev_databases",
+            "fk_map": "/datadrive/databases/bird/dev_tables.json",
+            "dataset": "/datadrive/databases/bird/dev.json"
+        }
+    },
+    "kaggle": {
+        "train": {
+            "ds_location": "/datadrive/databases/kaggle",
+            "db_location": "/datadrive/databases/kaggle/databases",
+            "fk_map": "/datadrive/databases/kaggle/tables.json",
+            "dataset": "/datadrive/databases/kaggle/kaggle_train.parquet"
+        },
+        "dev": {
+            "ds_location": "/datadrive/databases/kaggle",
+            "db_location": "/datadrive/databases/kaggle/databases",
+            "fk_map": "/datadrive/databases/kaggle/tables.json",
+            "dataset": "/datadrive/databases/kaggle/kaggle_dev.parquet"
+        },
+        "test": {
+            "ds_location": "/datadrive/databases/kaggle",
+            "db_location": "/datadrive/databases/kaggle/databases",
+            "fk_map": "/datadrive/databases/kaggle/tables.json",
+            "dataset": "/datadrive/databases/kaggle/kaggle_test.parquet"
+        }
+    },
+    "spider": {
+        "train": {
+            "ds_location": "/datadrive/databases/spider",
+            "db_location": "/datadrive/databases/spider/database",
+            "fk_map": "/datadrive/databases/spider/tables.json",
+            "dataset": "/datadrive/databases/spider/train_spider.json"
+        },
+        "dev": {
+            "ds_location": "/datadrive/databases/spider",
+            "db_location": "/datadrive/databases/spider/database",
+            "fk_map": "/datadrive/databases/spider/tables.json",
+            "dataset": "/datadrive/databases/spider/dev.json"
+        },
+        "test": {
+            "ds_location": "/datadrive/databases/spider",
+            "db_location": "/datadrive/databases/spider/test_database",
+            "fk_map": "/datadrive/databases/spider/test_tables.json",
+            "dataset": "/datadrive/databases/spider/test.json"
+        }
+    },
+    "sede": {
+        "train": {
+            "ds_location": "/datadrive/databases/sede",
+            "db_location": "/datadrive/databases/sede/databases",
+            "fk_map": "/datadrive/databases/sede/tables.json",
+            "dataset": "/datadrive/databases/sede/sede_train.jsonl",
+            "scrapped_schema": "/datadrive/databases/sede/stackexchange_sede_schema.json"
+        },
+        "val": {
+            "ds_location": "/datadrive/databases/sede",
+            "db_location": "/datadrive/databases/sede/databases",
+            "fk_map": "/datadrive/databases/sede/tables.json",
+            "dataset": "/datadrive/databases/sede/sede_val.jsonl",
+            "scrapped_schema": "/datadrive/databases/sede/stackexchange_sede_schema.json"
+        },
+        "test": {
+            "ds_location": "/datadrive/databases/sede",
+            "db_location": "/datadrive/databases/sede/test_databases",
+            "fk_map": "/datadrive/databases/sede/tables.json",
+            "dataset": "/datadrive/databases/sede/sede_test.jsonl",
+            "scrapped_schema": "/datadrive/databases/sede/stackexchange_sede_schema.json"
+        }
+    }
+}
