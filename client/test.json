@@ -1,0 +1,4 @@
+{
+    "schema": "Table Name: FINREV_FED_17\n\tSchema: state_code, idcensus, school_district, nces_id, yr_data, t_fed_rev, c14, c25\nTable Name: FINREV_FED_KEY_17\n\tSchema: State_Code, State, #_Records\nTable Name: NDECoreExcel_Math_Grade8\n\tSchema: year, state, all_students, average_scale_score\nTable Name: sysdiagrams\n\tSchema: name, principal_id, diagram_id, version, definition",
+    "schema": "Table Name: resultsdata15\n\tSchema: sample_pk, commod, commtype, lab, pestcode, testclass, concen, lod, conunit, confmethod, confmethod2, annotate, quantitate, mean, extract, determin\nTable Name: sampledata15\n\tSchema: sample_pk, state, year, month, day, site, commod, source_id, variety, origin, country, disttype, commtype, claim, quantity, growst, packst, distst"
+}
