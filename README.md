@@ -36,7 +36,7 @@ The system consists of:
 
 ## 1. Overview — Benchmark Characterization
 
-![overview_characterization][imgs/overview_characterization.png)
+![overview_characterization](/imgs/overview_characterization.png)
 
 The Overview tab summarizes benchmark quality issues independently of model predictions.
 
