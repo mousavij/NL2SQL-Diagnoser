@@ -1,0 +1,20 @@
+{
+  "name": "annotation-app",
+  "private": true,
+  "scripts": {
+    "dev": "npm-run-all --parallel dev:client dev:server",
+    "dev:client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev",
+    "build": "npm-run-all build:client build:server",
+    "build:client": "npm --prefix client run build",
+    "build:server": "npm --prefix server run build",
+    "start": "npm --prefix server run start",
+    "start:watch": "npm-run-all --parallel build start"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "watch": "^1.0.2"
+  }
+}

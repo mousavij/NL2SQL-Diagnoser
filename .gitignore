@@ -1,0 +1,79 @@
+# =========================
+# Private data  
+# =========================
+server/data/input/*.json
+
+# =========================
+# Dependencies
+# =========================
+node_modules/
+
+# =========================
+# Build outputs
+# =========================
+dist/
+build/
+.out/
+.next/
+coverage/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# Cache / temp files
+# =========================
+.cache/
+.tmp/
+.temp/
+.eslintcache
+.parcel-cache/
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Testing
+# =========================
+coverage/
+.nyc_output/
+
+# =========================
+# Next.js / Vercel
+# =========================
+.vercel/
+
+# =========================
+# Misc
+# =========================
+*.pid
+*.seed
+*.pid.lock
+
+
