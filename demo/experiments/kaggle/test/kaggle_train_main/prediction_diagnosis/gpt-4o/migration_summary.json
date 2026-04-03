@@ -1,0 +1,24 @@
+{
+  "input_json": "old_results/gpt-52_gpt-4o_kaggle_test_schemaType=origFullpkfk_2_context=False_full-schema=True_prediction_errors.json",
+  "agent_type": "eval",
+  "solution_name": "gpt-4o",
+  "run_id": "20260329T090400Z_b8c04725",
+  "rows_in_input": 185,
+  "rows_after_id_remap": 185,
+  "match_stats": {
+    "matched_by_triplet": 185,
+    "ambiguous_triplet": 0,
+    "unmatched": 0
+  },
+  "unmatched_rows_file": null,
+  "sql_eval_summary_written": 185,
+  "sql_execution_details_written": 185,
+  "gold_cache_written": 185,
+  "experiment_dir": "experiments/kaggle/test/kaggle_train_main",
+  "agent_dir": "experiments/kaggle/test/kaggle_train_main/prediction_diagnosis/gpt-4o",
+  "output_files": {
+    "sql_eval_summary": "experiments/kaggle/test/kaggle_train_main/prediction_diagnosis/gpt-4o/sql_eval_summary.jsonl",
+    "sql_execution_details": "experiments/kaggle/test/kaggle_train_main/prediction_diagnosis/gpt-4o/sql_execution_details.jsonl",
+    "gold_execution_cache": "experiments/kaggle/test/_benchmark_cache/gold_execution_cache.jsonl"
+  }
+}

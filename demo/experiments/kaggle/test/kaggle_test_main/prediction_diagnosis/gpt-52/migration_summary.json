@@ -1,0 +1,26 @@
+{
+  "input_json": "old_results/gpt-52_gpt-52_kaggle_test_schemaType=origFullpkfk_2_context=False_full-schema=True_prediction_errors.json",
+  "agent_type": "diagnosis",
+  "solution_name": "gpt-52",
+  "run_id": "20260329T143941Z_30229cf1",
+  "rows_in_input": 185,
+  "rows_after_id_remap": 185,
+  "match_stats": {
+    "matched_by_triplet": 185,
+    "ambiguous_triplet": 0,
+    "unmatched": 0
+  },
+  "unmatched_rows_file": null,
+  "sql_eval_summary_written": 0,
+  "sql_execution_details_written": 0,
+  "gold_cache_written": 0,
+  "prediction_diagnosis_written": 185,
+  "experiment_dir": "experiments/kaggle/test/kaggle_test_main",
+  "agent_dir": "experiments/kaggle/test/kaggle_test_main/prediction_diagnosis/gpt-52",
+  "output_files": {
+    "sql_eval_summary": "experiments/kaggle/test/kaggle_test_main/prediction_diagnosis/gpt-52/sql_eval_summary.jsonl",
+    "sql_execution_details": "experiments/kaggle/test/kaggle_test_main/prediction_diagnosis/gpt-52/sql_execution_details.jsonl",
+    "prediction_diagnosis": "experiments/kaggle/test/kaggle_test_main/prediction_diagnosis/gpt-52/prediction_diagnosis.jsonl",
+    "gold_execution_cache": "experiments/kaggle/test/_benchmark_cache/gold_execution_cache.jsonl"
+  }
+}

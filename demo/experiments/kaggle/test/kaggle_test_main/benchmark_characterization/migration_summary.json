@@ -1,0 +1,22 @@
+{
+  "input_json": "old_results/gpt-52_kaggle_test_schemaType=origFullpkfk_2_context=False_full-schema=True_temp=1_run_0.json",
+  "agent_type": "characterization",
+  "solution_name": null,
+  "run_id": "20260329T085228Z_10cab953",
+  "rows_in_input": 185,
+  "rows_after_id_remap": 185,
+  "match_stats": {
+    "matched_by_triplet": 185,
+    "ambiguous_triplet": 0,
+    "unmatched": 0
+  },
+  "unmatched_rows_file": null,
+  "characterization_written": 185,
+  "distribution_written": 185,
+  "experiment_dir": "experiments/kaggle/test/kaggle_test_main",
+  "agent_dir": "experiments/kaggle/test/kaggle_test_main/benchmark_characterization",
+  "output_files": {
+    "characterization": "experiments/kaggle/test/kaggle_test_main/benchmark_characterization/characterization.jsonl",
+    "generation_distribution": "experiments/kaggle/test/kaggle_test_main/benchmark_characterization/generation_distribution.jsonl"
+  }
+}

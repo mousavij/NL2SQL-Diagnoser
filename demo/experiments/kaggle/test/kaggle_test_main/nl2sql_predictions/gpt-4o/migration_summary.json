@@ -1,0 +1,20 @@
+{
+  "input_json": "old_results/gpt-52_gpt-4o_kaggle_test_schemaType=origFullpkfk_2_context=False_full-schema=True_prediction_errors.json",
+  "agent_type": "predictions",
+  "solution_name": "gpt-4o",
+  "run_id": "20260329T130922Z_6d0fc603",
+  "rows_in_input": 185,
+  "rows_after_id_remap": 185,
+  "match_stats": {
+    "matched_by_triplet": 185,
+    "ambiguous_triplet": 0,
+    "unmatched": 0
+  },
+  "unmatched_rows_file": null,
+  "predictions_written": 0,
+  "experiment_dir": "experiments/kaggle/test/kaggle_test_main",
+  "agent_dir": "experiments/kaggle/test/kaggle_test_main/nl2sql_predictions/gpt-4o",
+  "output_files": {
+    "predictions": "experiments/kaggle/test/kaggle_test_main/nl2sql_predictions/gpt-4o/predictions.jsonl"
+  }
+}

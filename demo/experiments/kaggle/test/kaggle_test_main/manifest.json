@@ -1,0 +1,57 @@
+{
+  "experiment_name": "kaggle_test_main",
+  "run_id": "20260329T143941Z_30229cf1",
+  "dataset": "kaggle",
+  "split": "test",
+  "created_at": "2026-03-29T08:52:28.978418+00:00",
+  "updated_at": "2026-03-29T14:39:45.443303+00:00",
+  "agents": {
+    "benchmark_characterization": {
+      "agent_name": "benchmark_characterization",
+      "solution_name": null,
+      "agent_dir": "experiments/kaggle/test/kaggle_test_main/benchmark_characterization",
+      "output_files": {
+        "characterization": "experiments/kaggle/test/kaggle_test_main/benchmark_characterization/characterization.jsonl",
+        "generation_distribution": "experiments/kaggle/test/kaggle_test_main/benchmark_characterization/generation_distribution.jsonl"
+      }
+    },
+    "nl2sql_predictions:gpt-4o": {
+      "agent_name": "nl2sql_predictions",
+      "solution_name": "gpt-4o",
+      "agent_dir": "experiments/kaggle/test/kaggle_test_main/nl2sql_predictions/gpt-4o",
+      "output_files": {
+        "predictions": "experiments/kaggle/test/kaggle_test_main/nl2sql_predictions/gpt-4o/predictions.jsonl"
+      }
+    },
+    "prediction_diagnosis:gpt-52": {
+      "agent_name": "prediction_diagnosis",
+      "solution_name": "gpt-52",
+      "agent_dir": "experiments/kaggle/test/kaggle_test_main/prediction_diagnosis/gpt-52",
+      "output_files": {
+        "sql_eval_summary": "experiments/kaggle/test/kaggle_test_main/prediction_diagnosis/gpt-52/sql_eval_summary.jsonl",
+        "sql_execution_details": "experiments/kaggle/test/kaggle_test_main/prediction_diagnosis/gpt-52/sql_execution_details.jsonl",
+        "prediction_diagnosis": "experiments/kaggle/test/kaggle_test_main/prediction_diagnosis/gpt-52/prediction_diagnosis.jsonl",
+        "gold_execution_cache": "experiments/kaggle/test/_benchmark_cache/gold_execution_cache.jsonl"
+      }
+    },
+    "nl2sql_predictions:gpt-52": {
+      "agent_name": "nl2sql_predictions",
+      "solution_name": "gpt-52",
+      "agent_dir": "experiments/kaggle/test/kaggle_test_main/nl2sql_predictions/gpt-52",
+      "output_files": {
+        "predictions": "experiments/kaggle/test/kaggle_test_main/nl2sql_predictions/gpt-52/predictions.jsonl"
+      }
+    },
+    "prediction_diagnosis:gpt-4o": {
+      "agent_name": "prediction_diagnosis",
+      "solution_name": "gpt-4o",
+      "agent_dir": "experiments/kaggle/test/kaggle_test_main/prediction_diagnosis/gpt-4o",
+      "output_files": {
+        "sql_eval_summary": "experiments/kaggle/test/kaggle_test_main/prediction_diagnosis/gpt-4o/sql_eval_summary.jsonl",
+        "sql_execution_details": "experiments/kaggle/test/kaggle_test_main/prediction_diagnosis/gpt-4o/sql_execution_details.jsonl",
+        "prediction_diagnosis": "experiments/kaggle/test/kaggle_test_main/prediction_diagnosis/gpt-4o/prediction_diagnosis.jsonl",
+        "gold_execution_cache": "experiments/kaggle/test/_benchmark_cache/gold_execution_cache.jsonl"
+      }
+    }
+  }
+}
