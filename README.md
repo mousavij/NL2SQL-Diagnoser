@@ -21,7 +21,7 @@ project_root/
 
 ## System Architecture
 
-[/imgs/architecture.png]
+![architecture](/imgs/architecture.png)
 
 The system consists of:
 - Benchmark Characterization Agent
@@ -36,7 +36,7 @@ The system consists of:
 
 ## 1. Overview — Benchmark Characterization
 
-[imgs/overview_characterization.png]
+![overview_characterization][imgs/overview_characterization.png)
 
 The Overview tab summarizes benchmark quality issues independently of model predictions.
 
@@ -71,7 +71,7 @@ Features:
 
 ## 2. Benchmark Characterization — Instance Exploration
 
-[/imgs/characterization.png]
+![characterization](/imgs/characterization.png)
 
 Displays:
 - question
@@ -84,7 +84,7 @@ Displays:
 
 ## 3. Overview — Prediction Diagnosis
 
-[/imgs/overview_prediction.png]
+![overview_prediction](/imgs/overview_prediction.png)
 
 Summarizes prediction behavior.
 
@@ -113,7 +113,7 @@ Summarizes prediction behavior.
 
 ## 4. Prediction Diagnosis — Instance Exploration
 
-[/imgs/prediction.png]
+![prediction](/imgs/prediction.png)
 
 Displays:
 - gold SQL
@@ -126,8 +126,8 @@ Displays:
 
 ## 5. Cross-Benchmark Insights
 
-[/imgs/cross_benchmark_characterization.png]
-[/imgs/cross_benchmark_prediction.png]
+![cross_benchmark_characterization](/imgs/cross_benchmark_characterization.png)
+![cross_benchmark_prediction](/imgs/cross_benchmark_prediction.png)
 
 Compare:
 - datasets
@@ -144,7 +144,7 @@ Charts:
 
 ## 6. Slice Builder
 
-[/imgs/slice_builder.png]
+![slice_builder](/imgs/slice_builder.png)
 
 Supports slicing across:
 - benchmark labels
@@ -160,7 +160,7 @@ Dataset → Benchmark Error → Flag → Model
 
 ## 7. Cross-Model Comparison
 
-[/imgs/cross_model.png]
+![cross_model](/imgs/cross_model.png)
 
 Combines:
 - side-by-side predictions
@@ -171,7 +171,7 @@ Combines:
 
 ## 8. Aggregated Analysis
 
-[/imgs/aggregated_analysis.png]
+![aggregated_analysis](/imgs/aggregated_analysis.png)
 
 Combines:
 - benchmark characteristics
@@ -182,7 +182,7 @@ Combines:
 
 ## 9. Instance Explorer
 
-[/imgs/instance_explorer.png]
+![instance_explorer](/imgs/instance_explorer.png)
 
 Displays:
 - NL question
