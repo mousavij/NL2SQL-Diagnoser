@@ -206,6 +206,61 @@ project_root/
 
 ---
 
+## Setup Status / TODO
+
+Before running the demo, make sure the following assets are available locally.
+
+### Required external assets
+- [ ] Download precomputed experiment outputs
+- [ ] Download `datadrive/databases/`
+- [ ] Place experiment files under `demo/experiments/`
+- [ ] Place dataset artifacts under `datadrive/databases/`
+- [ ] Confirm paths in `.env` or server configuration
+- [ ] Confirm paths in `settings.json` 
+
+---
+
+## Data Download
+
+This repository expects large precomputed artifacts and dataset files to be downloaded separately.
+
+### 1. Precomputed experiments
+Download the precomputed experiment bundle here:
+
+**[PLACEHOLDER: link to experiments (Will update soon)]**
+
+After downloading, extract it into:
+```bash
+demo/experiments/
+```
+
+Expected structure:
+```bash
+demo/experiments/{dataset}/{split}/{experiment_name}/
+```
+
+### 2. Dataset artifacts
+Download the dataset artifact bundle here:
+
+**[PLACEHOLDER: link to datadrive databases (Will update soon)]**
+
+After downloading, extract it into:
+```bash
+datadrive/databases/
+```
+
+Expected structure:
+```bash
+datadrive/databases/{dataset}/{split}/
+```
+
+Notes:
+- These files are not stored directly in the repository because they are large.
+- The demo UI and backend expect these folders to be populated before launch.
+- If these folders are missing, some pages or experiments will not load correctly.
+
+---
+
 ## Installation
 
 ### Backend
