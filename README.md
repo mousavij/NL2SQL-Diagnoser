@@ -10,18 +10,18 @@ NL2SQL-Diagnoser is an interactive system for analyzing NL2SQL benchmarks, model
 ---
 
 # Project Structure
-
+```bash
 project_root/
 ├── client/
 ├── server/
 ├── demo/
 ├── datadrive/
-
+```
 ---
 
 ## System Architecture
 
-[imgs/architecture.png]
+[/imgs/architecture.png]
 
 The system consists of:
 - Benchmark Characterization Agent
@@ -71,7 +71,7 @@ Features:
 
 ## 2. Benchmark Characterization — Instance Exploration
 
-[imgs/characterization.png]
+[/imgs/characterization.png]
 
 Displays:
 - question
@@ -84,7 +84,7 @@ Displays:
 
 ## 3. Overview — Prediction Diagnosis
 
-[imgs/overview_prediction.png]
+[/imgs/overview_prediction.png]
 
 Summarizes prediction behavior.
 
@@ -113,7 +113,7 @@ Summarizes prediction behavior.
 
 ## 4. Prediction Diagnosis — Instance Exploration
 
-[imgs/prediction.png]
+[/imgs/prediction.png]
 
 Displays:
 - gold SQL
@@ -126,8 +126,8 @@ Displays:
 
 ## 5. Cross-Benchmark Insights
 
-[imgs/cross_benchmark_characterization.png]
-[imgs/cross_benchmark_prediction.png]
+[/imgs/cross_benchmark_characterization.png]
+[/imgs/cross_benchmark_prediction.png]
 
 Compare:
 - datasets
@@ -144,7 +144,7 @@ Charts:
 
 ## 6. Slice Builder
 
-[imgs/slice_builder.png]
+[/imgs/slice_builder.png]
 
 Supports slicing across:
 - benchmark labels
@@ -160,7 +160,7 @@ Dataset → Benchmark Error → Flag → Model
 
 ## 7. Cross-Model Comparison
 
-[imgs/cross_model.png]
+[/imgs/cross_model.png]
 
 Combines:
 - side-by-side predictions
@@ -171,7 +171,7 @@ Combines:
 
 ## 8. Aggregated Analysis
 
-[imgs/aggregated_analysis.png]
+[/imgs/aggregated_analysis.png]
 
 Combines:
 - benchmark characteristics
@@ -182,7 +182,7 @@ Combines:
 
 ## 9. Instance Explorer
 
-[imgs/instance_explorer.png]
+[/imgs/instance_explorer.png]
 
 Displays:
 - NL question
